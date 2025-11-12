@@ -9,6 +9,8 @@
     <script src="cookie.js"></script>
     <script src="tetris_main.js"></script>
     <script>
+      
+      let styleVar = 1;
       function onClickEvent(event){
       if (Tetris.currentInstance) {
       Tetris.currentInstance.mouseClicked(event.layerX, event.layerY);
@@ -16,7 +18,20 @@
       }
 
 		function myFunction() {
-		alert("testing");
+      
+      if(styleVar == 1) {
+        styleVar = 2;
+        document.getElementById("counter").textContent = styleVar; 
+
+        
+      } else if(styleVar == 2) {
+        styleVar = 1;
+        document.getElementById("counter").textContent = styleVar; 
+        
+      }
+      
+      
+      
 		}
     </script>
 
@@ -83,6 +98,7 @@
         
          <a onClick="myFunction();" class="bareLink">
 	      <div class="menuItem">Change Style</div>
+        <p >Style: <span id="counter">0</span></p>
 	    </a>
         <br>
 	      <b>Controls:</b><br/>
