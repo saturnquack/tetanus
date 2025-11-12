@@ -9,7 +9,7 @@ var SHAPES = {
 	    { x: 0, y: -1 },
 	    { x: 1, y: -1 }
 	],
-	image: 'media/cyanblock.png',
+	image: 'media/cyanblock1.png',
 	kickType: 'i_block'
     },
     o: {
