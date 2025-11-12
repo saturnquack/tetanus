@@ -184,7 +184,7 @@ function Tetris(controller) {
 
 window.onload = function () {
     loadGameControls();
-if(x == 1) {
+if(styleVar == 1) {
     jaws.assets.add('media/blueblock.png');
     jaws.assets.add('media/cyanblock.png');
     jaws.assets.add('media/greenblock.png');
