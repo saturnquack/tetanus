@@ -185,7 +185,7 @@ function Tetris(controller) {
 window.onload = function () {
     loadGameControls();
     console.log("why dosent this work");
-    /*jaws.assets.add('media/blueblock1.png');
+    jaws.assets.add('media/blueblock1.png');
     jaws.assets.add('media/cyanblock1.png');
     jaws.assets.add('media/greenblock1.png');
     jaws.assets.add('media/orangeblock1.png');
@@ -194,7 +194,7 @@ window.onload = function () {
     jaws.assets.add('media/yellowblock1.png');
     jaws.assets.add('media/greyblock.png');
     jaws.assets.add('media/emptyblock.png');
-	*/
+	
     jaws.assets.add('media/buttons/continue.png');
     jaws.assets.add('media/buttons/restart.png');
 
