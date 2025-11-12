@@ -2861,7 +2861,7 @@ window.onload = function() {
     loadGameControls();
 alert(styleVar);
   console.log(styleVar);
-  if(styleVar == 1){
+  if(styleVar == 2){
     jaws.assets.add("media/blueblock.png");
     jaws.assets.add("media/cyanblock.png");
     jaws.assets.add("media/greenblock.png");
@@ -2869,7 +2869,7 @@ alert(styleVar);
     jaws.assets.add("media/purpleblock.png");
     jaws.assets.add("media/redblock.png");
     jaws.assets.add("media/yellowblock.png");
-  } else if(styleVar == 2) {
+  } else if(styleVar == 1) {
     jaws.assets.add("media/blueblock1.png");
     jaws.assets.add("media/cyanblock1.png");
     jaws.assets.add("media/greenblock1.png");
