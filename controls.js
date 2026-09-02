@@ -36,13 +36,13 @@ function setDefaultControls() {
     document.getElementById('rotateLeftValue')
 	.innerHTML = 'Z';
     document.getElementById('rotateRightValue')
-	.innerHTML = 'X, UP';
+	.innerHTML = 'W, UP';
     document.getElementById('shiftLeftValue')
-	.innerHTML = 'LEFT';
+	.innerHTML = 'A';
     document.getElementById('shiftRightValue')
-	.innerHTML = 'RIGHT';
+	.innerHTML = 'D';
     document.getElementById('softDropValue')
-	.innerHTML = 'DOWN';
+	.innerHTML = 'S';
     document.getElementById('hardDropValue')
 	.innerHTML = 'SPACE';
     document.getElementById('swapValue')
@@ -59,10 +59,10 @@ function configureCustomControls(fromCookie, fromThreshold) {
     if (controlsLoaded && !fromCookie) {
 	// the cookies need to be created & initialized
 	createCookie('rotateLeft', 'Z', 1000);
-	createCookie('rotateRight', 'X', 1000);
-	createCookie('shiftLeft', 'LEFT', 1000);
-	createCookie('shiftRight', 'RIGHT', 1000);
-	createCookie('softDrop', 'DOWN', 1000);
+	createCookie('rotateRight', 'W', 1000);
+	createCookie('shiftLeft', 'A', 1000);
+	createCookie('shiftRight', 'D', 1000);
+	createCookie('softDrop', 'S', 1000);
 	createCookie('hardDrop', 'SPACE', 1000);
 	createCookie('swap', 'C', 1000);
 
